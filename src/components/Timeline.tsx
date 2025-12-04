@@ -20,7 +20,7 @@ export const Timeline: React.FC = () => {
       <div className="timeline-grid">
         {groupedTimeline.map((group, groupIdx) => (
           <div key={`${group.tipo}-${groupIdx}`} className={`timeline-branch timeline-${group.tipo}`}>
-            {group.items.map((item, itemIdx) => (
+            {group.items.map((item) => (
               <div key={item.id} className="timeline-item">
                 <div className="timeline-dot-wrapper">
                   <div className={`timeline-dot ${item.tipo}`} />
