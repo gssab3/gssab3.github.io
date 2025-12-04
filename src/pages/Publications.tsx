@@ -1,4 +1,6 @@
-const Publications = () => {
+import React from 'react'
+
+const Publications: React.FC = () => {
   return (
     <div className="page publications-page">
       <h1>Publications</h1>

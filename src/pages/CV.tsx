@@ -1,4 +1,6 @@
-const CV = () => {
+import React from 'react'
+
+const CV: React.FC = () => {
   return (
     <div className="page cv-page">
       <h1>Curriculum Vitae</h1>

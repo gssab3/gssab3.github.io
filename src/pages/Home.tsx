@@ -1,4 +1,6 @@
-const Home = () => {
+import React from 'react'
+
+const Home: React.FC = () => {
   return (
     <div className="page home-page">
       <h1>Welcome to your Portfolio</h1>
