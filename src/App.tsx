@@ -46,8 +46,8 @@ function App() {
       <Sidebar {...profile} />
       <div className="app-content">
         {renderPage()}
-        <Timeline />
       </div>
+      <Timeline />
     </div>
   )
 }
