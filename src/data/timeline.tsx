@@ -8,24 +8,32 @@ export type TimelineItem = {
 
 export const timeline: TimelineItem[] = [
   {
-    id: 'uni-inizio',
-    titolo: 'Inizio Università',
-    sottoTitolo: 'Ingegneria Informatica, XYZ',
-    periodo: '2019',
+    id: 'uni-inizio-magistrale',
+    titolo: 'Started Master Degree',
+    sottoTitolo: 'Corso di Laurea Magistrale in Ingegneria Informatica, UniSA',
+    periodo: '24-10-2025',
     tipo: 'uni',
   },
   {
     id: 'uni-laurea',
-    titolo: 'Laurea Triennale',
-    periodo: '2022',
+    titolo: 'Bachelor Degree Achieved - 110/110 with Honors',
+    sottoTitolo: 'Corso di Laurea Triennale di Informatica, UniSA',
+    periodo: '23-10-2025',
     tipo: 'uni',
   },
   {
-    id: 'work-junior',
-    titolo: 'Junior Developer',
-    sottoTitolo: 'Azienda ABC',
-    periodo: '2023 - oggi',
-    tipo: 'lavoro',
+    id: 'uni-inizio',
+    titolo: 'Started University',
+    sottoTitolo: 'Corso di Laurea Triennale di Informatica, UniSA',
+    periodo: '20-09-2022',
+    tipo: 'uni',
   },
+  {
+    id: 'work-junior-dev',
+    titolo: 'Full Stack Junior Developer - Kebula',
+    sottoTitolo: 'Sviluppo di applicazioni web e mobile per la gestione dei dati aziendali',
+    periodo: '05-11-2025 - Present',
+    tipo: 'lavoro',
+  }
 ];
 export default timeline;
