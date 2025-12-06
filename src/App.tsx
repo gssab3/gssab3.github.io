@@ -26,7 +26,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'home':
-        return <Home />
+        return <Home onNavigate={setCurrentPage} />
       case 'about':
         return <About />
       case 'projects':
@@ -36,7 +36,7 @@ function App() {
       case 'publications':
         return <Publications />
       default:
-        return <Home />
+        return <Home onNavigate={setCurrentPage} />
     }
   }
 
