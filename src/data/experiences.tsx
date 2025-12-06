@@ -70,6 +70,15 @@ const projects = [
         dateStarted: "To Define",
         dateEnded: "To Define",
         type: "PersonalProject"
+    },
+    {
+        name: "Top-Secret",
+        description: "???",
+        link: "To Define",
+        technologies: "To Define",
+        dateStarted: "To Define",
+        dateEnded: "To Define",
+        type: "PersonalProject"
     }
 ]
 
