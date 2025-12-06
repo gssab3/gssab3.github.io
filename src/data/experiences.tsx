@@ -31,6 +31,9 @@ const profile = {
     ]
 }
 
+{/*
+    type: CourseProject | PersonalProject | ThesisProject
+    */}
 const projects = [
     {
         name: "UniClass",
@@ -38,7 +41,8 @@ const projects = [
         link: "https://github.com/gssab3/UniClass",
         technologies: "Jakarta, Javascript, HTML, CSS, PostgreSQL, Docker, LaTeX",
         dateStarted: "2024-10-13",
-        dateEnded: "Present"
+        dateEnded: "Present",
+        type: "CourseProject"
     },
     {
         name: "AIMm",
@@ -46,7 +50,8 @@ const projects = [
         link: "https://github.com/gssab3/AIMm",
         technologies: "Python - Jupyter Notebook",
         dateStarted: "2025-02-6",
-        dateEnded: "2025-06-11"
+        dateEnded: "2025-06-11",
+        type: "CourseProject"
     },
     {
         name: "llm_for_vulnerability",
@@ -54,7 +59,17 @@ const projects = [
         link: "https://github.com/gssab3/llm_for_vulnerability",
         technologies: "Python",
         dateStarted: "2025-09-22",
-        dateEnded: "Present"
+        dateEnded: "Present",
+        type: "ThesisProject"
+    },
+    {
+        name: "DND4School",
+        description: "DND4School non è altro che un progetto che mira a migliorare l'interazione interpersonale in ambienti didattici, scoprendo la creatività, pensiero critico e personalità degli studenti in un mondo dove il pensiero critico sta svanendo. Può sembrare banale ma è proprio la creatività che stimola il cervello e sono fermamente convinto che giochi di ruolo basati sui puzzle, scoperte o tesori siano il massimo.",
+        link: "https://github.com/gssab3/DND4School",
+        technologies: "To Define",
+        dateStarted: "To Define",
+        dateEnded: "To Define",
+        type: "PersonalProject"
     }
 ]
 
