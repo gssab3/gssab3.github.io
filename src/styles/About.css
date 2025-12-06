@@ -56,7 +56,7 @@
 .story {
   background: rgba(58, 58, 58, 0.6);
   border-radius: 12px;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   margin-bottom: 1.5rem;
   border-left: 3px solid #6b9bd1;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -75,7 +75,7 @@
 
 /* Paragraphs */
 .about-page p {
-  color: #d0d0d0;
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.8;
   text-align: justify;
