@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 #root {
   width: 100%;
   min-height: 100vh;
@@ -22,6 +27,7 @@
   padding: 2rem;
   flex: 1;
   color: #e8e8e8;
+  min-width: 0; /* Fix overflow issues */
 }
 
 .app-content h1 {
@@ -32,14 +38,44 @@
   color: #f1ebeb;
 }
 
-/* Responsive */
+/* Page base styles */
+.page {
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 1024px) {
+  .app-content {
+    margin-left: 28%;
+    padding: 1.5rem;
+  }
+}
+
+/* Responsive - Mobile */
 @media (max-width: 768px) {
   .app {
     flex-direction: column;
+    padding-top: 60px;
   }
 
   .app-content {
     margin-left: 0;
-    padding: 1.5rem;
+    padding: 1.25rem;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  .app {
+    padding-top: 55px;
+  }
+
+  .app-content {
+    padding: 1rem;
   }
 }

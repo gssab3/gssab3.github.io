@@ -1,0 +1,132 @@
+/* Projects Page Styles */
+
+.projects-page {
+  max-width: 900px;
+}
+
+.projects-page h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin-bottom: 1rem;
+}
+
+.projects-page > p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #b8b8b8;
+  margin-bottom: 2rem;
+}
+
+.thesis-projects,
+.course-projects,
+.personal-projects {
+  margin-bottom: 2.5rem;
+}
+
+.thesis-projects h3,
+.course-projects h3,
+.personal-projects h3 {
+  font-size: 1.1rem;
+  color: #c4956b;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(196, 149, 107, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.project-item {
+  background: rgba(232, 232, 232, 0.03);
+  border: 1px solid rgba(168, 168, 168, 0.15);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+.project-item:hover {
+  background: rgba(232, 232, 232, 0.06);
+  border-color: rgba(168, 168, 168, 0.25);
+  transform: translateY(-2px);
+}
+
+.project-item h2 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin: 0 0 0.75rem 0;
+}
+
+.project-item p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #b8b8b8;
+  margin: 0.5rem 0;
+}
+
+.project-item p strong {
+  color: #d0d0d0;
+  font-weight: 600;
+}
+
+.project-item a {
+  display: inline-block;
+  color: #6b9bd1;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+.project-item a:hover {
+  color: #8bb5e8;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .projects-page h1 {
+    font-size: 1.6rem;
+  }
+
+  .projects-page > p {
+    font-size: 0.9rem;
+  }
+
+  .project-item {
+    padding: 1.25rem;
+  }
+
+  .project-item h2 {
+    font-size: 1.05rem;
+  }
+
+  .project-item p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-page h1 {
+    font-size: 1.4rem;
+  }
+
+  .projects-page > p {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .project-item h2 {
+    font-size: 1rem;
+  }
+
+  .project-item p {
+    font-size: 0.8rem;
+  }
+}

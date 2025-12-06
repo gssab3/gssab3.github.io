@@ -1,5 +1,6 @@
 import React from 'react'
 import { projects } from '../data/experiences'
+import '../styles/Projects.css'
 
 const Projects: React.FC = () => {
   return (
