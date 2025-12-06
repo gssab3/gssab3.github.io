@@ -1,0 +1,271 @@
+/* CV Page Styles - Coerente con Projects.css */
+
+.cv-page {
+  max-width: 900px;
+}
+
+.cv-page h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e8e8e8;
+  margin-bottom: 1.5rem;
+}
+
+.cv-page h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #c4956b;
+  margin: 1.5rem 0 1rem 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid rgba(196, 149, 107, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+/* Academic Experiences header - colore blu */
+.cv-page h2:first-of-type,
+.cv-page > div > h2:first-of-type {
+  color: #6b9bd1;
+  border-bottom: 1px solid rgba(107, 155, 209, 0.3);
+}
+
+.cv-page > div > ul,
+.cv-page > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-page > div > ul > li,
+.cv-page > ul > li {
+  background: rgba(232, 232, 232, 0.03);
+  border: 1px solid rgba(168, 168, 168, 0.15);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.cv-page > div > ul > li:hover,
+.cv-page > ul > li:hover {
+  background: rgba(232, 232, 232, 0.06);
+  border-color: rgba(168, 168, 168, 0.25);
+  transform: translateY(-2px);
+}
+
+.cv-page > div > ul > li strong,
+.cv-page > ul > li b {
+  color: #e8e8e8;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.cv-page > div > ul > li p,
+.cv-page > ul > li {
+  color: #b8b8b8;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+}
+
+/* Skills Section */
+.skills-section {
+  margin-top: 1.5rem;
+}
+
+.skills-section > h2 {
+  display: none; /* Nasconde il secondo h2 duplicato */
+}
+
+.category-card {
+  background: rgba(232, 232, 232, 0.03);
+  border: 1px solid rgba(168, 168, 168, 0.15);
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  background: rgba(232, 232, 232, 0.05);
+  border-color: rgba(168, 168, 168, 0.25);
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(168, 168, 168, 0.1);
+}
+
+.category-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #6b9bd1;
+  margin: 0;
+}
+
+.skill-count {
+  font-size: 0.75rem;
+  color: #a8a8a8;
+  background: rgba(107, 155, 209, 0.15);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.subgroups-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.subgroup {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.subgroup-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.subgroup-header strong {
+  font-size: 0.95rem;
+  color: #e8e8e8;
+}
+
+.subgroup-header span {
+  font-size: 0.75rem;
+  color: #a8a8a8;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.skill-badge {
+  background: linear-gradient(135deg, rgba(107, 155, 209, 0.2) 0%, rgba(74, 111, 165, 0.15) 100%);
+  border: 1px solid rgba(107, 155, 209, 0.3);
+  color: #b8d4f0;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skill-badge:hover {
+  background: linear-gradient(135deg, rgba(107, 155, 209, 0.35) 0%, rgba(74, 111, 165, 0.25) 100%);
+  border-color: rgba(107, 155, 209, 0.5);
+  transform: translateY(-1px);
+}
+
+.subgroup-description {
+  font-size: 0.8rem;
+  color: #a8a8a8;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+/* Responsive - Tablet */
+@media (max-width: 1024px) {
+  .cv-page h1 {
+    font-size: 1.75rem;
+  }
+
+  .cv-page h2 {
+    font-size: 1.15rem;
+  }
+
+  .category-card {
+    padding: 1.25rem;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 768px) {
+  .cv-page h1 {
+    font-size: 1.5rem;
+  }
+
+  .cv-page h2 {
+    font-size: 1.05rem;
+    margin: 1.25rem 0 0.75rem 0;
+  }
+
+  .cv-page > div > ul > li,
+  .cv-page > ul > li {
+    padding: 1rem 1.25rem;
+  }
+
+  .cv-page > div > ul > li strong,
+  .cv-page > ul > li b {
+    font-size: 0.95rem;
+  }
+
+  .cv-page > div > ul > li p,
+  .cv-page > ul > li {
+    font-size: 0.85rem;
+  }
+
+  .category-card {
+    padding: 1rem;
+  }
+
+  .category-header h3 {
+    font-size: 1rem;
+  }
+
+  .subgroup {
+    padding: 0.75rem;
+  }
+
+  .skill-badge {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cv-page h1 {
+    font-size: 1.35rem;
+  }
+
+  .cv-page h2 {
+    font-size: 0.95rem;
+  }
+
+  .cv-page > div > ul > li,
+  .cv-page > ul > li {
+    padding: 0.875rem 1rem;
+  }
+
+  .category-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .skills-list {
+    gap: 0.35rem;
+  }
+
+  .skill-badge {
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .subgroup-description {
+    font-size: 0.75rem;
+  }
+}

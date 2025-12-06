@@ -20,6 +20,9 @@ export const Timeline: React.FC = () => {
                 {item.sottoTitolo && (
                   <p className="node-subtitle">{item.sottoTitolo}</p>
                 )}
+                {item.eqf && (
+                  <p style={{color: 'white', fontStyle: 'italic'}} className="node-eqf">EQF Level: {item.eqf}</p>
+                )}
               </div>
               <div className="node-dot uni-dot" />
             </div>
