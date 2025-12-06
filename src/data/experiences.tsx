@@ -55,7 +55,7 @@ const projects = [
     },
     {
         name: "llm_for_vulnerability",
-        description: "This thesis project uses Retrieval-Augmented Generation (RAG) to produce precise security requirements for web applications. It leverages a defined Problem Statement to guide the generation process, ensuring requirements address specific security needs systematically. By combining authoritative sources with RAG, the project delivers clear, traceable, and actionable security measures tailored to the application's context.",
+        description: "This thesis project uses Retrieval-Augmented Generation (RAG) to produce precise security requirements for softwares. It leverages a defined Problem Statement to guide the generation process, ensuring requirements address specific security needs systematically. By combining authoritative sources with RAG, the project delivers clear, traceable, and actionable security measures tailored to the application's context.",
         link: "https://github.com/gssab3/llm_for_vulnerability",
         technologies: "Python",
         dateStarted: "2025-09-22",
