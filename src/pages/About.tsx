@@ -18,7 +18,7 @@ const About: React.FC = () => {
       <div className="story">
         <h2>My Personal Story</h2>
         <p>
-          Talent may exist, but I was born with grit—sangue agli occhi. A relentless drive that's measurable, with its clear advantages and challenges.<br />
+          Talent may exist, but I was raised with grit—sangue agli occhi. A relentless drive that's measurable, with its clear advantages and challenges.<br />
           I am a humble person (even if it doesn't show in my portfolio) who loves art, philosophy and critical thinking. My favourite artist is Gabriele D'Annunzio, not because of his narcissism, but because of his interpretation of life, being someone who lived every moment of his life intensely, seeking to get the most out of it in terms of experience and knowledge.<br />
           When I feel really down, I take refuge in the classic jazz notes of Piero Piccioni and the experimental jazz musician James Kirby, aka “The Caretaker”.<br />
           I love socialising and connecting with people from all walks of life, as it enriches my perspective and fuels my passion for continuous learning. When I make a mistake, I am not afraid to consciously admit my errors.<br />
