@@ -38,6 +38,12 @@ html {
   color: #f1ebeb;
 }
 
+.timeline-section {
+  width: 25%;
+  background-color: #353434;
+  overflow: hidden;
+}
+
 /* Page base styles */
 .page {
   max-width: 900px;
@@ -62,6 +68,10 @@ html {
   .app-content {
     margin-left: 0;
     padding: 1.25rem;
+    width: 100%;
+  }
+
+  .timeline-section {
     width: 100%;
   }
 }

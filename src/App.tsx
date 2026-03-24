@@ -44,11 +44,11 @@ function App() {
     <div className="app">
       <Navbar onNavigate={setCurrentPage} currentPage={currentPage} />
       <Sidebar {...profile} />
-      <div className="app-content" style={{ width: "75%" }}>
+      <div className="app-content">
         {renderPage()}
       </div>
-      <div className="timeline-section" style={{ width: "25%" }}>
-      <h2 style={{ textAlign: "center", margin: "10px 10px", gap: 8, top: 3, bottom: 5 }}>My Journey</h2>
+      <div className="timeline-section">
+      <h2 style={{ textAlign: "center", margin: "10px 10px", gap: 8, top: 3, bottom: 5, color: "#e8e8e8" }}>My Journey</h2>
       <br />
       <Timeline />
       </div>
