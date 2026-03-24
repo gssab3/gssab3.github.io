@@ -9,7 +9,7 @@ export const skills = [
       },
       {
         title: "Python & scripting AI", 
-        skills: ["Python, Pytorch, LangChain, HuggingFace, FAISS"],
+        skills: ["Python", "Pytorch", "LangChain", "HuggingFace", "FAISS", "Embeddings"],
         description: "Automation, tooling, backend for AI/RAG services and API orchestration"
       },
       {
@@ -18,24 +18,19 @@ export const skills = [
         description: "Memory management, low-level optimizations"
       },
       {
-        title: "Scripting/Web",
-        skills: ["Javascript", "Typescript"],
+        title: "Backend & MVC",
+        skills: ["Ruby", "Ruby on Rails"],
+        description: "Server-side development, Convention over Configuration and rapid prototyping"
+      },
+      {
+        title: "Web Languages & Frameworks",
+        skills: ["Javascript", "Typescript", "React"],
         description: "Modern frontend, strong typing, reactive UI and web development"
       }
     ]
   },
   {
-    category: "Web development",
-    subgroups: [
-      {
-        title: "Frontend frameworks",
-        skills: ["React", "HTML", "jQuery"],
-        description: "Single Page Applications, reactive UI, legacy compatibility"
-      },
-    ]
-  },
-  {
-    category: "Database, Data & AI",
+    category: "Databases & Data Management",
     subgroups: [
       {
         title: "Relational DB",
@@ -43,14 +38,9 @@ export const skills = [
         description: "Modeling, complex queries, management, maintenance and migrations"
       },
       {
-        title: "RAG & vector DB",
-        skills: ["LangChain", "RAG Systems", "FAISS"],
-        description: "Chain orchestration, retrieval, similarity search, vector indexing"
-      },
-      {
-        title: "Prompting & LLM orchestration",
-        skills: ["Prompting", "LangChain orchestration"],
-        description: "Design of chains, agents, tools, memory for LLM applications"
+        title: 'No-SQL DB',
+        skills: ['Neo4J', 'CQL'],
+        description: 'Graph databases, Cypher query language, graph modeling and traversal'
       }
     ]
   },
@@ -64,12 +54,12 @@ export const skills = [
       },
       {
         title: "Networking & simulation",
-        skills: ["GNS3", "Packet Tracer", "Wireshark", "VirtualBox"],
-        description: "Network simulation, traffic inspection, virtualized environments"
+        skills: ["GNS3", "Packet Tracer", "Wireshark", "VirtualBox", "VMWare", "QEMU/KVM"],
+        description: "Network simulation, traffic inspection, virtualized/emulated environments"
       },
       {
-        title: "DevOps & workflow",
-        skills: ["DevOps", "Kanban", "Jira"],
+        title: "Framework for DevOps",
+        skills: ["SCRUM", "SCRUMIA", "SCRUMBAN", "Kanban", "Jira", "XP"],
         description: "CI/CD, visualization of flow through boards, capacity planning and management"
       }
     ]
@@ -78,9 +68,19 @@ export const skills = [
     category: "Game development",
     subgroups: [
       {
-        title: "Game engines 3D/VR",
-        skills: ["Unity", "UnityVR", "Unreal Engine"],
-        description: "Beginner - 3D prototypes, VR experiences, gameplay and interactions"
+        title: "Game engines VR",
+        skills: ["UnityVR"],
+        description: "Beginner - VR prototypes and experiences"
+      },
+      {
+        title: 'Game Engines 3D',
+        skills: ['Unreal Engine', 'Unity', 'GoDot'],
+        description: "Beginner - 3D prototypes and experiences"
+      },
+      {
+        title: 'Game Engines 2D',
+        skills: ['Unity, PhaserJS', 'Scratch'],
+        description: 'Beginner / Intermediate projects for Jams and Education'
       }
     ]
   },
@@ -88,18 +88,18 @@ export const skills = [
     category: "IDE & productivity",
     subgroups: [
       {
-        title: "Java IDE",
-        skills: ["Eclipse", "NetBeans", "IntelliJ"],
-        description: "Advanced debugging, refactoring, integration with Java build and test tools"
+        title: "Programming IDEs",
+        skills: ["Eclipse", "NetBeans", "IntelliJ", "Virtual Studio Code", "WebStorm", "PyCharm", "IDLE", "Dev C++"],
+        description: "Advanced features for code navigation, refactoring, debugging and testing"
       },
       {
         title: "Scripting & note-taking",
-        skills: ["IDLE (Python)", "Notion"],
+        skills: ["IDLE (Python)", "Notion", "AppFlowy", "Obsidian", "Virtual Studio Code"],
         description: "Rapid prototyping and knowledge management"
       },
       {
         title: "Documentation & academic",
-        skills: ["LaTeX", "Prism", "Overleaf", "Markdown"],
+        skills: ["LaTeX", "Prism", "Overleaf", "Markdown", "Draw.io"],
         description: "Scientific documents, theses and structured papers"
       }
     ]
@@ -119,17 +119,17 @@ export const skills = [
       },
       {
         title: "Security & static analysis",
-        skills: ["GitGuardian", "Snyk", "SonarQube"],
+        skills: ["GitGuardian", "Snyk", "SonarQube", "SonarCloud"],
         description: "Secret scanning, dependency vulns, code smells and quality gates CI"
       },
       {
         title: "Performance & contracts",
-        skills: ["JMH", "JU2JMH", "JML"],
+        skills: ["JMH", "JU2JMH", "JML", "JMeter"],
         description: "Microbenchmarking, performance analysis, formal specifications and contracts"
       },
       {
         title: "Browser & trace testing",
-        skills: ["SeleniumIDE", "TraceNG"],
+        skills: ["SeleniumIDE", "TraceNG", "WireShark"],
         description: "End-to-end testing and behavioral analysis of systems"
       }
     ]
