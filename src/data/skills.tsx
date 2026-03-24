@@ -5,11 +5,11 @@ export const skills = [
       {
         title: "Java ecosystem",
         skills: ["Java", "Java EE", "Jakarta", "Spring"],
-        description: "Enterprise backend with DI/CDI, REST services, microservices"
+        description: "Enterprise backend with CI/CD/CT, REST services, microservices, testing and performance analysis"
       },
       {
         title: "Python & scripting AI", 
-        skills: ["Python"],
+        skills: ["Python, Pytorch, LangChain, HuggingFace, FAISS"],
         description: "Automation, tooling, backend for AI/RAG services and API orchestration"
       },
       {
@@ -18,9 +18,9 @@ export const skills = [
         description: "Memory management, low-level optimizations"
       },
       {
-        title: "Scripting/Web & multiparadigma",
-        skills: ["Javascript", "Typescript", "C#"],
-        description: "Modern frontend, strong typing and beginner game development skills"
+        title: "Scripting/Web",
+        skills: ["Javascript", "Typescript"],
+        description: "Modern frontend, strong typing, reactive UI and web development"
       }
     ]
   },
@@ -59,7 +59,7 @@ export const skills = [
     subgroups: [
       {
         title: "Containers & automation",
-        skills: ["Docker", "Docker Compose", "Make", "GitHub Actions"],
+        skills: ["Docker", "Make", "GitHub Actions"],
         description: "Containerization, repeatable environments, build/test/deploy automation"
       },
       {
@@ -69,8 +69,8 @@ export const skills = [
       },
       {
         title: "DevOps & workflow",
-        skills: ["DevOps", "Kanban", "Scheduling"],
-        description: "CICD, visualization of flow through boards, capacity planning and management"
+        skills: ["DevOps", "Kanban", "Jira"],
+        description: "CI/CD, visualization of flow through boards, capacity planning and management"
       }
     ]
   },
@@ -99,7 +99,7 @@ export const skills = [
       },
       {
         title: "Documentation & academic",
-        skills: ["LaTeX"],
+        skills: ["LaTeX", "Prism", "Overleaf", "Markdown"],
         description: "Scientific documents, theses and structured papers"
       }
     ]

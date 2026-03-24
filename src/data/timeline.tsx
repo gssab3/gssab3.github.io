@@ -38,7 +38,7 @@ export const timeline: TimelineItem[] = [
   },
   {
     id: 'work-junior-dev',
-    titolo: 'Full Stack Junior Developer - Kebula',
+    titolo: 'Software Engineer - Kebula',
     sottoTitolo: 'Development of applications for company data management',
     descrizione: 'Working on developing and maintaining full stack applications to manage company data efficiently, utilizing modern web technologies and best practices.',
     periodo: '05-11-2025 - Present',
