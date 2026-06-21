@@ -1,10 +1,6 @@
 import React from 'react'
 import '../styles/Sidebar.css'
 
-interface Location {
-    location : string,
-    icon : string
-}
 
 interface SocialProfile {
   name: string
@@ -16,11 +12,10 @@ interface SidebarProps {
   name: string
   label: string
   image: string
-  location: Location
   social: SocialProfile[]
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ name, label, image, location, social }) => {
+const Sidebar: React.FC<SidebarProps> = ({ name, label, image, social }) => {
   return (
     <aside className="sidebar">
       <div className="sidebar-content">
@@ -33,10 +28,6 @@ const Sidebar: React.FC<SidebarProps> = ({ name, label, image, location, social 
         <div className="social-section">
           <h3 className="social-title">More About Me!</h3>
           <div className="social-links">
-            <div className="location">
-              <img src={location.icon} alt="location" className="location-icon" />
-              <span>{location.location}</span>
-            </div>
             {social.map((profile) => (
               <a
                 key={profile.name}

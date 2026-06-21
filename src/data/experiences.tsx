@@ -8,10 +8,6 @@ const profile = {
     name: "Giuseppe Sabetta",
     label: "Software Engineer & Requirements Analyst",
     image: profileImage,
-    location: {
-        location: "Italy",
-        icon: locationIcon
-    },
     social : [
         {
             name: "GitHub",
@@ -64,7 +60,7 @@ const projects = [
     },
     {
         name: "DND4School",
-        description: "DND4School non è altro che un progetto che mira a migliorare l'interazione interpersonale in ambienti didattici, scoprendo la creatività, pensiero critico e personalità degli studenti in un mondo dove il pensiero critico sta svanendo. Può sembrare banale ma è proprio la creatività che stimola il cervello e sono fermamente convinto che giochi di ruolo basati sui puzzle, scoperte o tesori siano il massimo.",
+        description: "DND4School is simply a project that aims to improve interpersonal interaction in educational settings by fostering students’ creativity, critical thinking, and individuality in a world where critical thinking is on the decline. It may sound trivial, but it is creativity that stimulates the brain, and I firmly believe that role-playing games based on puzzles, discoveries, or treasure hunts are the best.\n",
         link: "https://github.com/gssab3/DND4School",
         technologies: "To Define",
         dateStarted: "To Define",

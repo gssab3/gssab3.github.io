@@ -3,7 +3,7 @@
 .sidebar {
   position: fixed;
   left: 0;
-  top: 200px;
+  top: 400px;
   width: 25%;
   height: calc(100vh - 70px);
   background-color: transparent;
