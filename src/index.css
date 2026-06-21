@@ -5,7 +5,7 @@
 
   color-scheme: dark; /* Cambiato in dark */
   color: #e8e8e8; /* Colore testo default per il tema scuro */
-  background-color: #353434; /* ECCO LA MAGIA: stesso colore di App.css */
+  background-color: #353434;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

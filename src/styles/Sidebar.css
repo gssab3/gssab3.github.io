@@ -287,11 +287,11 @@
   .social-item {
     width: auto;
     flex: 0 0 auto;
-    padding-right: 0; /* FIX: Rimuove lo sbilanciamento destro */
+    padding-right: 0;
   }
 
   .copy-btn {
-    display: none; /* FIX: Nasconde il bottone copia su mobile per garantire la centratura visiva */
+    display: none;
   }
 
   .social-link {

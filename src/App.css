@@ -12,7 +12,6 @@ html {
 }
 
 body {
-  /* AGGIUNTO: copre ogni pixel dello schermo con il colore corretto */
   background-color: #353434;
   margin: 0;
   min-height: 100vh;
@@ -23,27 +22,25 @@ body {
 #root {
   width: 100%;
   min-height: 100vh;
-  /* RIMOSSO: il display flex qui stava limitando la larghezza della navbar */
 }
 
 /* La Navbar (se è un componente separato che sta sopra .app) prenderà automaticamente il 100% della larghezza e lo sfondo scuro se lo ha impostato, altrimenti lo eredita dal body */
 
 .app {
   width: 100%;
-  max-width: 1920px; /* Evita dilatazioni assurde su ultrawide/4K */
-  margin: 0 auto; /* Centra il contenuto dell'app sullo schermo */
-  min-height: calc(100vh - 70px); /* Sottrae l'altezza della navbar */
-  /* RIMOSSO padding-top se la navbar è sticky, altrimenti mantienilo se la navbar è fixed fuori da .app */
+  max-width: 1920px;
+  margin: 0 auto;
+  min-height: calc(100vh - 70px);
   padding-top: 70px;
   background-color: #353434;
   display: flex;
-  justify-content: center; /* Tiene gli elementi compatti al centro */
+  justify-content: center;
 }
 
 /* Contenitore centrale per le pagine (CV, Projects, ecc) */
 .app-content {
   padding: 2rem;
-  width: 50%; /* Occupa il 50% dello spazio, mentre sidebar e timeline hanno il 25% */
+  width: 50%;
   max-width: 900px;
   color: #e8e8e8;
   min-width: 0;
