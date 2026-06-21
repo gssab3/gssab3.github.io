@@ -135,26 +135,40 @@
   line-height: 1.3;
 }
 
-/* Responsive - Tablet */
-@media (max-width: 1024px) {
+/* Collasso Timeline a 1 colonna a 1200px */
+@media (max-width: 1200px) {
   .timeline-wrapper {
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
-  .timeline-uni {
-    padding-right: 1.5rem;
+  .timeline-uni, .timeline-lavoro {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    align-items: flex-start;
+    text-align: left;
   }
 
-  .timeline-lavoro {
-    padding-left: 1.5rem;
+  .timeline-uni .timeline-node,
+  .timeline-lavoro .timeline-node {
+    flex-direction: row !important;
+    width: 100%;
+    gap: 0.75rem;
   }
 
-  .node-content {
-    padding: 0.875rem 1rem;
+  .timeline-node .node-dot {
+    order: 1 !important;
+    width: 14px;
+    height: 14px;
+  }
+
+  .timeline-node .node-content {
+    order: 2 !important;
+    padding: 0.8rem 0.8rem;
   }
 
   .node-title {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .node-subtitle {
@@ -162,36 +176,15 @@
   }
 }
 
-/* Responsive - Mobile */
+@media (max-width: 1024px) {
+  .node-content {
+    padding: 0.875rem 1rem;
+  }
+}
+
 @media (max-width: 768px) {
   .timeline-container {
     padding: 1.5rem 0.5rem;
-  }
-
-  .timeline-wrapper {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-  }
-
-  .timeline-uni {
-    padding-right: 0.5rem;
-  }
-
-  .timeline-lavoro {
-    padding-left: 0.5rem;
-  }
-
-  .timeline-node {
-    gap: 0.5rem;
-  }
-
-  .node-dot {
-    width: 12px;
-    height: 12px;
-  }
-
-  .node-content {
-    padding: 0.6rem 0.5rem;
   }
 
   .node-period {
@@ -203,7 +196,7 @@
   }
 
   .node-subtitle {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
   }
 
   .timeline-svg {
@@ -220,24 +213,21 @@
     gap: 0.5rem;
   }
 
-  .timeline-uni {
+  .timeline-uni, .timeline-lavoro {
     padding-right: 0.25rem;
-  }
-
-  .timeline-lavoro {
     padding-left: 0.25rem;
   }
 
   .timeline-node {
-    gap: 0.35rem;
+    gap: 0.5rem !important;
   }
 
-  .node-dot {
-    width: 10px;
-    height: 10px;
+  .timeline-node .node-dot {
+    width: 12px;
+    height: 12px;
   }
 
-  .node-content {
+  .timeline-node .node-content {
     padding: 0.5rem 0.4rem;
   }
 
@@ -250,7 +240,6 @@
   }
 
   .node-subtitle {
-    font-size: 0.55rem;
-    display: none;
+    font-size: 0.6rem;
   }
 }
