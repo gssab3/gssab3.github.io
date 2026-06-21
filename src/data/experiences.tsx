@@ -11,17 +11,20 @@ const profile = {
     social : [
         {
             name: "GitHub",
+            display: "gssab3",
             url: "https://github.com/gssab3",
             icon: githubIcon
         },
         {
             name: "LinkedIn",
+            display: "giuseppesabetta",
             url: "https://linkedin.com/in/giuseppesabetta/",
             icon: linkedinIcon
         },
         {
             name: "Mail",
-            url: "mailto:email@example.com",
+            display: "giuseppesabetta@proton.me",
+            url: "mailto:giuseppesabetta@proton.me",
             icon: emailIcon
         }
     ]
