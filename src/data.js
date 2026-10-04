@@ -131,7 +131,7 @@ export const certifications = [
     issuer: 'Neo4J',
     credentialId: 'fabbcac2-4c2e-44c1-b030-a0501ee97c5a',
     issued: 'March 2026',
-    logo: '/photos/neo4j.png',
+    logo: '../src/images/neo4j.png',
     desc: 'Introductive and Hands-on course of Neo4J for modeling and architecture analysis, testing and validation of Neo4J databases',
     tech: ['Graph Modeling', 'UML', 'Neo4J', 'Software Testing', 'Profiling', 'Data Engineering', 'Software Engineering', 'Cypher'],
   },
