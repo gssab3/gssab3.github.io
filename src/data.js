@@ -135,6 +135,7 @@ export const certifications = [
     desc: 'Introductive and Hands-on course of Neo4J for modeling and architecture analysis, testing and validation of Neo4J databases',
     tech: ['Graph Modeling', 'UML', 'Neo4J', 'Software Testing', 'Profiling', 'Data Engineering', 'Software Engineering', 'Cypher'],
   },
+
   {
     name: 'Cypher Fundamentals',
     issuer: 'Neo4J',
