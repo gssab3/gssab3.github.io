@@ -41,7 +41,7 @@ export default function About() {
 
           <div className="about-side">
             <figure className="about-photo">
-              <img src={profile.photo2} alt={`${profile.name} — outside of work`} loading="lazy" />
+              <img src={profile.photo2} alt={`${profile.name} - outside of work`} loading="lazy" />
             </figure>
             <aside className="card side-card">
             <h3>Outside of work</h3>

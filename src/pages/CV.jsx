@@ -154,9 +154,9 @@ export default function CV() {
           <h2>Core focus</h2>
           <div className="card-grid three">
             {[
-              { t: 'Architecture', d: 'Clean, maintainable, scalable system design.' },
-              { t: 'Engineering', d: 'Full-stack development and solid engineering practices.' },
-              { t: 'Problem solving', d: 'Turning ambiguous problems into clear solutions.' },
+              { t: 'Requirements Engineering', d: 'What and How the software will work.' },
+              { t: 'Software Engineering', d: 'Full-stack development and solid engineering practices.' },
+              { t: 'Security Analysis', d: '\"Secure\" is not just a buzzword to add to your product. I analyse and eventually put it by myself.' },
             ].map((s) => (
               <article className="card" key={s.t}>
                 <h3>{s.t}</h3>
