@@ -144,6 +144,15 @@ export const certifications = [
     desc: 'Introductive course of Cypher Query Language for Data Querying in Graphs (Neo4J)',
     tech: ['Cypher', 'Neo4J', 'Data Engineering'],
     issued: 'March 2026'
+  },
+  {
+    name: 'Neo4J Fundamentals',
+      issuer: 'Neo4J',
+      credentialId: 'ef5e9c1b-ce59-4c47-9d84-5d86db9c9304',
+      logo: '/photos/neo4j.png',
+      desc: 'Introductive course of Neo4J and Neo4J AuraDB',
+      tech: ['Cypher', 'Neo4J', 'Data Engineering'],
+      issued: 'March 2026'
   }
 ];
 
