@@ -26,16 +26,14 @@ export default function CV() {
           A short look at my professional history, academic background and what I focus on.
         </p>
 
-          {/*
         <div style={{ display: 'flex', gap: 12, marginBottom: 48, flexWrap: 'wrap' }}>
-          <a href="/cv-placeholder.pdf" download className="primary-cta">
+          <a href="/cv-giuseppe-sabetta-portfolio.pdf" download className="primary-cta">
             Download CV ↓
           </a>
-          <a href="/cv-placeholder.pdf" target="_blank" rel="noreferrer" className="ghost-cta">
+          <a href="/cv-giuseppe-sabetta-portfolio.pdf" target="_blank" rel="noreferrer" className="ghost-cta">
             Open PDF
           </a>
         </div>
-        */}
 
         {/* Bio */}
         <div className="cv-section">
