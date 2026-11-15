@@ -158,35 +158,38 @@ export const certifications = [
 
 export const projects = [
   {
+    title: 'Human4Human',
+    repo:'orgs/Human4HumanLab',
+    desc: 'Ethical Social Network for deep business analysis, requirements engineer and collaboration with Department of Sociology of Salerno, following PMBOK and SWEBOK Standards for Project Management',
+    tech: 'Spring · Neo4J · YouTrack · Agentic Workflows',
+    role: 'Project Manager & AI Integrator',
+    stars: 15
+  },
+  {
     title: 'UniClass',
     repo: 'gssab3/UniClass-ISTA',
     desc: 'It started as a toy project for an exam and became one of my best experiments for SE, SRE, UAT and Maintenance Processes',
     tech: 'Java Enterprise · Javascript · NodeJS · PostgreSQL · SonarQube',
-    tags: ['Web', 'SRE', 'SE', 'UAT', 'F/NF Testing', 'Security Analysis', 'CI/CD', 'DevSecOps', 'DevOps'],
+    role: 'Software Engineer',
     stars: 12,
-    pinned: true,
   },
   {
     title: 'AIMm',
     repo: 'gssab3/AIMm',
-    desc: 'Artificial Intelligence for (Shooter) Matchmaking is a toy project for understanding how to solve a game problem, balancement of different teams that play against. (Actually the projects reveals it would give a better experience to players)',
+    desc: 'Artificial Intelligence Solution based on CRISP-DM for (Shooter) Matchmaking is a toy project for understanding how to solve a game problem, balancement of different teams that play against. (Actually the projects reveals it would give a better experience to players)',
     tech: 'Python · Jupyter Notebook',
-    tags: ['AI', 'ML', 'CRISP-DM', 'Gaming', 'Statistics'],
+    role: 'Data Analyst, ML Engineer',
     stars: 8,
-    pinned: true,
   },
   {
     title: 'RetroCrates',
     repo: 'gssab3/RetroCrates',
     desc: 'RetroCrates is an E-Commerce for social and economic sustainability. It\'s used to sell collectibles and retro games in a world where you can\'t really know if you own something or not if it\'s digital',
     tech: 'Java · MySQL ·Javascript',
-    tags: ['Gaming', 'Web'],
+    role: 'Backend Engineer',
     stars: 5,
-    pinned: true,
   },
 ];
-
-export const projectTags = ['All',...new Set(projects.flatMap(p => p.tags))];
 
 export const publications = [
   {
