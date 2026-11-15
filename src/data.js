@@ -202,10 +202,17 @@ export const publications = [
 ];
 
 export const talks = [
-  {
+    {
+      title: 'Requirements Engineering - Fundamentals and Practices',
+      speakers: 'Giuseppe Sabetta',
+      event: 'University of Salerno - H4H Team',
+      date: '13/10/2026',
+      link: '/talks/H4H-ReqEng.pdf',
+    },
+    {
     title: 'Neo4J: Definition, Modeling and Profiling',
     speakers: 'Alessia Ascolese, Gennaro Sepe, Giuseppe Sabetta',
-    event: 'Neo4J Seminar Talk',
+    event: 'University of Salerno',
     date: '2026',
     link: '/talks/Neo4j-talk.pdf',
   },
