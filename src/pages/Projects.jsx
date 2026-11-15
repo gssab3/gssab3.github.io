@@ -25,7 +25,7 @@ export default function Projects() {
               <span className="card-label">{p.tech}</span>
               <div className="project-title-row">
                 <h4>{p.title}</h4>
-                {p.role && <h6 className="project-role">{p.role}</h6>}
+                {p.role && <h4 className="project-role">{p.role}</h4>}
               </div>
               <p>{p.desc}</p>
               <div className="card-meta">
