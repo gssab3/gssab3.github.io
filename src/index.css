@@ -570,7 +570,7 @@ html[data-theme='dark'] .theme-toggle .icon-sun {
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 1.15;
-  margin-bottom: 10px;
+  margin: 0;
 }
 
 .card p {
@@ -652,6 +652,42 @@ html[data-theme='dark'] .theme-toggle .icon-sun {
   flex-wrap: wrap;
   gap: 6px;
   margin-top: 14px;
+}
+
+.project-info {
+  margin-top: 16px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.project-info p {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
+  color: var(--muted);
+}
+
+.project-info p + p {
+  margin-top: 4px;
+}
+
+.project-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.project-role {
+  margin: 0;
+  font-size: clamp(15px, 1.4vw, 17px);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--fg);
+  text-align: right;
+  white-space: nowrap;
 }
 
 .project-tag {
