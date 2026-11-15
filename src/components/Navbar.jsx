@@ -75,7 +75,7 @@ export default function Navbar() {
           </nav>
 
           <div className="nav-right">
-            <div className="tz-pill" title="Local time in Rome">
+            <div className="tz-pill" title="Local time in Italy">
               <span className="tz-dot" />
               <span className="tz-loc">Rome</span>
               <span className="tz-time">{time}</span>
